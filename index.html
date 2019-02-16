@@ -22,10 +22,10 @@
               <div class="dropdown-menu" aria-labelledby="about-us">
                 <div class="main_menu">
                   <ul class="nav">
-                    <li><a href="Seminars.html">Seminars</a></li>
-                    <li><a href="О курсе.html">О курсе</a></li>
-                    <li><a href="О спикерах.html">О спикерах</a></li>
-                    <li><a href="Бонус.html">Бонус</a></li>
+                    <li><a href="#Seminars">Seminars</a></li>
+                    <li><a href="#about_course">О курсе</a></li>
+                    <li><a href="#about_speakers">О спикерах</a></li>
+                    <li><a href="#Бонус">Бонус</a></li>
                   </ul>
                 </div>
               </div>
@@ -108,7 +108,7 @@
         </div>
       </div>
     </section>
-    <section class="about_course">
+    <section class="about_course" id="about_course">
       <div class="container">
         <p class="section_title">О чем курс</p>
         <div class="row">
@@ -183,8 +183,8 @@
         </div>
       </div>
     </section>
-    <section class="about_speakers">
-      <div class="container">
+    <section class="about_speakers" id="about_speakers">
+      <div class="container position-relative">
         <p class="section_title">О спикерах</p>
         <div class="row about_speakers_list">
           <div class="col-12 col-sm-12 col-md-6 col-xl-6 col_left">
@@ -234,7 +234,182 @@
         </div>
       </div>
     </section>
-    <!--include inc/footer.pug-->
+    <section class="section_participation_format">
+      <div class="container">
+        <p class="section_title">ВЫБЕРИ ФОРМАТ УЧАСТИЯ</p>
+        <div class="row format_list">
+          <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+            <div class="item">
+              <div class="item_header"><span>STANDARD</span><img src="img/list2.svg"/></div>
+              <div class="item_body">
+                <ul>
+                  <li>Рабочий материал для обучения</li>
+                  <li>Места с середины зала</li>
+                  <li>Общий нетворкинг</li>
+                  <li>Фотоотчет события</li>
+                  <li>Файл с презентацией семинара</li>
+                  <li>2 кофе- брейка</li>
+                </ul><a class="btn_default" href="#">Узнать цену</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+            <div class="item">
+              <div class="item_header"><span>BUSINESS</span><img src="img/list2.svg"/></div>
+              <div class="item_body">
+                <ul>
+                  <li>Рабочий материал для обучения</li>
+                  <li>Места с середины зала</li>
+                  <li>Общий нетворкинг</li>
+                  <li>Фотоотчет события</li>
+                  <li>Файл с презентацией семинара</li>
+                  <li>2 кофе- брейка</li>
+                  <li>Обед</li>
+                  <li>Подарки от спонсоров и партнеров</li>
+                  <li>Сертификат о прохождении</li>
+                  <li>Аудиозапись тренинга</li>
+                  <li>Отдельная стойка регистрации</li>
+                </ul><a class="btn_default" href="#">Узнать цену</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-xl-4">
+            <div class="item">
+              <div class="item_header"><span>VIP</span><img src="img/list2.svg"/></div>
+              <div class="item_body">
+                <ul>
+                  <li>Рабочий материал для обучения</li>
+                  <li>Места с середины зала</li>
+                  <li>Общий нетворкинг</li>
+                  <li>Фотоотчет события</li>
+                  <li>Файл с презентацией семинара</li>
+                  <li>2 кофе- брейка</li>
+                  <li>Обед</li>
+                  <li>Подарки от спонсоров и партнеров</li>
+                  <li>Сертификат о прохождении</li>
+                  <li>Аудиозапись тренинга</li>
+                  <li>Отдельная стойка регистрации</li>
+                  <li>Отдельная кофе-брейк зона</li>
+                  <li>Индивидуальная фотосессия с Игорем Манном</li>
+                  <li>VIP нетворкинг</li>
+                  <li>Консалтинг ланч с Игорем Манном</li>
+                </ul><a class="btn_default" href="#">Узнать цену</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_feedback_form bg_grey">
+      <div class="container">
+        <div class="feedback_form_block">
+          <div class="title">Станьте партнёром на семинаре мо маркетингу в Минске</div><a class="sub_title_download" href="#"><img src="img/download.svg"/><span>Скачайте коммерческое предложение для партнеров</span></a>
+          <div class="feedback_form">
+            <form>
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 field">
+                  <input class="form-control" type="text" placeholder="Имя"/>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 field">
+                  <input class="form-control" type="text" placeholder="Мобильный телефон"/>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 field">
+                  <input class="form-control" type="text" placeholder="Электронная почта"/>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-xl-3 field">
+                  <button class="btn_default">Стать партнёром</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_event_schedule bg_grey">
+      <div class="container">
+        <p class="section_title">Расписание мероприятия</p>
+        <div class="schedule_block">
+          <div class="schedule_list">
+            <div class="item">
+              <div class="time"><span>09:00</span></div>
+              <div class="event"><strong>РЕГИСТРАЦИЯ</strong>
+                <p>На мероприятии предусмотрена регистрация участников, которая разделена по зонам и форматам билетов.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="time"><span>11:30 – 11:50</span></div>
+              <div class="event"><strong>КОФЕ-БРЕЙК</strong>
+                <p>Зона для кофе-брейка создана таким образом, чтобы участники могли пообщаться в неформальной обстановке, обсудить инсайты с курса, найти партнеров и сотрудников.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="time"><span>13:30 – 14:30</span></div>
+              <div class="event"><strong>ПЕРЕРЫВ НА ОБЕД</strong>
+                <p>В это время Вы сможете пообедать и отдохнуть чтобы поддержать концентрацию и уровень энергии в течение дня, восстановить ресурсы мозга</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="time"><span>16:00 – 16:10</span></div>
+              <div class="event"><strong>ПЕРЕРЫВ НА ОБЕД</strong></div>
+            </div>
+            <div class="item">
+              <div class="time"><span>17:30 – 17:50</span></div>
+              <div class="event"><strong>КОФЕ-БРЕЙК</strong>
+                <p>Второй кофе-брейк поможет обсудить инсайты с курса, продолжить общение и закрепить партнерские отношения, а также отработать в неформальной обстановке полученные знания.</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="time"><span>19:00 – 19:30</span></div>
+              <div class="event"><strong>ФОТОСЕССИЯ</strong></div>
+            </div>
+          </div>
+          <p class="last">Расписание может измениться</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="map_section">
+        <div class="container">
+          <div class="contact_form_block">
+            <div class="title">Остались вопросы?</div>
+            <p class="sub_title">Оставить запрос и наш менеджер свяжется с вами для уточнения деталей</p>
+            <div class="feedback_form">
+              <form>
+                <div class="row">
+                  <div class="col-12 field">
+                    <input class="form-control" type="text" placeholder="Имя"/>
+                  </div>
+                  <div class="col-12 field">
+                    <input class="form-control" type="text" placeholder="Мобильный телефон"/>
+                  </div>
+                  <div class="col-12 field">
+                    <input class="form-control" type="text" placeholder="Электронная почта"/>
+                  </div>
+                  <div class="col-12 field">
+                    <button class="btn_default">Отправить</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="map">
+          <script type="text/javascript" charset="utf-8" async="async" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2e0e0a61c178a408e657410c07c4b3e0deb9809008acccc80334416209493878&amp;amp;width=100%&amp;amp;height=570&amp;amp;lang=ru_RU&amp;amp;scroll=false"></script>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6">
+              <p>15 мая, проспект Независимости, 148, пом. 6</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+              <p class="text-md-right"><a class="phone" href="tel:+37529-654-75-88">+37529-654-75-88</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
